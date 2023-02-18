@@ -16,6 +16,9 @@ int Multiplies(list<int> numbers){
     }
     return mult;
 }
+
+
+
 int main(){
     
     list<int> numbers;
@@ -28,8 +31,7 @@ int main(){
     cout << endl;
     cout <<"Sum: " << Sum(numbers) << endl;
     cout <<"Mult: " << Multiplies(numbers) << endl;
-   
-  
+
     return 0;
 
 }
