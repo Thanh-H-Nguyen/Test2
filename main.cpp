@@ -10,6 +10,7 @@ int Sum(list<int> numbers){
     }
     return sum;
 }
+// hhllll
 //computes the product (multiplication) of all of a list
 int Multiplies(list<int> numbers){
     int mult = 1;
