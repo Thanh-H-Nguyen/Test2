@@ -1,7 +1,8 @@
 #include <iostream>
 #include <list>
 using namespace std;
-/// helloooooo---------------------1
+
+// sum of a list
 int Sum(list<int> numbers){
     int sum = 0;
     for(int i: numbers){
@@ -9,7 +10,7 @@ int Sum(list<int> numbers){
     }
     return sum;
 }
-
+//computes the product (multiplication) of all of a list
 int Multiplies(list<int> numbers){
     int mult = 1;
     for(int i : numbers){
@@ -18,6 +19,7 @@ int Multiplies(list<int> numbers){
     return mult;
 }
 
+//reverse order
 list<int> Reverse(list<int> numbers) {
     numbers.reverse();
     return numbers;
@@ -29,7 +31,7 @@ int main(){
     int num;
     cout << "Enter numbers: ";
     while(cin >> num){
-        numbers.push_back(num);
+        numbers.push_back(num);// to add a new number to the end of list
         cout << "Enter numbers: ";
     }
     cout << endl;
