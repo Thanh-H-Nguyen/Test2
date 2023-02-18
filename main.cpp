@@ -1,7 +1,7 @@
 #include <iostream>
 #include <list>
 using namespace std;
-
+//asdasdasdasasd
 // sum of a list
 int Sum(list<int> numbers){
     int sum = 0;
@@ -25,6 +25,7 @@ list<int> Reverse(list<int> numbers) {
     numbers.reverse();
     return numbers;
 }
+
 
 int main(){
     //create a list
